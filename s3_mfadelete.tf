@@ -69,3 +69,14 @@ resource "aws_s3_bucket" "mfadelete8" {
     mfa_delete = true
   }
 }
+
+resource "aws_s3_bucket" "mfadelete" {
+  bucket = "mfadelete9"
+  acl    = "private"
+  versioning {
+    enabled = true
+    mfa_delete = true
+  }
+}
+
+
