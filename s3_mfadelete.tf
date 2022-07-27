@@ -80,3 +80,8 @@ resource "aws_s3_bucket" "mfadelete11" {
   acl    = "private"
 }
 
+resource "aws_s3_bucket" "mfadelete12" {
+  bucket = "mfadelete12"
+  acl    = "private"
+}
+
